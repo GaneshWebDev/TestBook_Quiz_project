@@ -1,0 +1,497 @@
+{"Pipes_And_Cisterns":{
+    "formula": "If a pipe can fill a tank in x hours, \npart of the tank filled in 1 hour = 1/x\n\nIf a pipe can empty a tank in y hours,\npart of the tank emptied in 1 hour = 1/y\n\nIf a pipe A can fill a tank in a hours and pipe B can fill it in b hours, time taken to fill the tank when both the pipes are opened simultaneously is\nab/(a+b)",
+    "problems": [
+      {
+        "id": 1,
+        "answerIndex": 1,
+        "answers": [
+          "12 minutes",
+          "13.5 minutes",
+          "15 mintes",
+          "14.5 minutes"
+        ],
+        "question": "Pipe A and Pipe B can fill a tank in 20 minutes and 30 minutes respectively. Pipe C can empty the tank in 60 minutes.  The tank is initially empty. Both the pipes A and B are opened. Pipe C is opened after 6 minutes. How much time does it take to fill the tank?",
+        "solution": "1/20th of the tank is filled by Pipe A in 1 minute.\n\n1/30th of the tank is filled by Pipe B in 1 minute. \n\n1/60th of the tank is emptied by Pipe C in 1 minute.\n\nPart of tank filled in the first 6 minutes = 6*[(1/20)+(1/30)] = 1/2\n\nWhen all pipes are opened, part of tank filled in 1 minute = (1/12)-(1/60) = 1/15\n\nTime required to fill the remaining ½ of the tank = (1/2)/(1/15) = 7.5\n\nTotal time = 6+7.5 = 13.5 minutes"
+      },
+      {
+        "id": 2,
+        "answerIndex": 0,
+        "answers": [
+          "12",
+          "15",
+          "20",
+          "18"
+        ],
+        "question": "Pipe A and Pipe B can fill a tank in 20 minutes and 10 minutes respectively. Pipe C can empty the tank in 15 minutes.  If the three pipes are opened simultaneously, find the time taken to fill the tank.",
+        "solution": "When all pipes are opened simultaneously, \npart of tank filled in 1 minute = (1/20)+(1/10)-(1/15) = 1/12\nTime taken to fill the tank = 12 minutes"
+      },
+      {
+        "id": 3,
+        "answerIndex": 2,
+        "answers": [
+          "7 liters",
+          "5 liters",
+          "3.5 liters",
+          "2.5 liters"
+        ],
+        "question": "Pipes P and Q can empty a tank in 1 hr and 1.5 hrs respectively. Pipes R and S can fill a tank in 2 hrs and 2.5 hrs respectively. The tank is filled to its capacity of 15 liters and all four pipes are opened simultaneously. How much water remains in the tank after an hour? ",
+        "solution": "Part of tank emptied by P in an hour \n= 1\nPart of tank emptied by Q in an hour \n= 1/1.5 = 2/3\nPart of tank filled by R in an hour \n= ½\nPart of tank filled by S in an hour \n= 1/2.5 = 2/5\nPart of tank emptied in an hour = (1+(2/3))-( ½ +(2/5)) = 23/30\n\nWater remaining in the tank = 15*7/30 = 3.5 liters"
+      },
+      {
+        "id": 4,
+        "answerIndex": 1,
+        "answers": [
+          "180 minutes",
+          "167 minutes",
+          "200 minutes",
+          "178 minutes"
+        ],
+        "question": "Three pipes, A, B, & C are attached to a tank. A & B can fill it in 20 & 30 minutes respectively while C can empty it in 15 minutes. If A, B & C are kept open successively for 1 minute each, how soon will the tank be filled?",
+        "solution": "Part of the tank filled in 3 minutes \n= (1/20)+(1/30)-(1/15) \n= 1/60\nPart filled in 165 minutes \n= (165/3)*(1/60) \n= 55/60\nPart filled in 167 minutes \n= (55/60)+(1/20)+(1/30) \n= 60/60 =1\nThe tank is filled in 167 minutes."
+      },
+      {
+        "id": 5,
+        "answerIndex": 3,
+        "answers": [
+          "30 minutes",
+          "45 minutes",
+          "40 minutes",
+          "25 minutes"
+        ],
+        "question": "Pipe A and Pipe B can fill a tank in 1 hour and 1 ¼ hours respectively. Both pipes are opened in the beginning and after some time, pipe B is closed. The tank is filled in 40 minutes. Pipe B was closed after",
+        "solution": "Part of tank filled by A in a minute \n= 1/60 \nPart of tank filled by B in a minute \n= 1/75\nLet pipe B be closed after x minutes.\n\nPart of tank filled in x minutes \n= x*[(1/60)+(1/75)] \n= 9x/300 \nPart of tank filled in (40-x) minutes \n= [(40-x)*(1/60)] \n= (40-x)/60\n\n(9x/300) + ((40-x)/60) = 1\n4x = 100\nx = 25"
+      },
+      {
+        "id": 6,
+        "answerIndex": 2,
+        "answers": [
+          "60 minutes",
+          "40 minutes",
+          "30 minutes",
+          "20 minutes"
+        ],
+        "question": "Two pipes A and B can fill a tank in 20 minutes when opened simultaneously. If pipe A alone takes 60 minutes to fill the tank, how much time will pipe B alone take to fill the tank?",
+        "solution": "Let B take x minutes to fill the tank.\n\nPart of the tank filled by A and B \n= (1/60) + (1/x) = (1/20)\nSolving this, x=30"
+      },
+      {
+        "id": 7,
+        "answerIndex": 3,
+        "answers": [
+          "10 minutes",
+          "7/6 hours",
+          "6/7 hours",
+          "7 hours"
+        ],
+        "question": "A pipe can fill a tank in an hour. Because of a leak, it took 1 hour and 10 minutes to fill the tank. Find the time taken by the leak to drain all the water in the tank.",
+        "solution": "Let the leak take x hours to drain the tank.\n\n1 hr 10 min = 1+(1/6) = 7/6 hrs\n\n1-(1/x) = 1/(7/6) = 6/7\n\nPart of tank leaked in an hour = 1-6/7 = 1/7\n\nThe leak takes 7 hours to drain all the water."
+      },
+      {
+        "id": 8,
+        "answerIndex": 1,
+        "answers": [
+          "6 minutes",
+          "12 minutes",
+          "12.5 minutes",
+          "24 minutes"
+        ],
+        "question": "Two taps A and B can fill a bathtub in 10 minutes and 15 minutes respectively. If A was open for the first two minutes, B for the next two minutes and so on, the bathtub is filled in",
+      "solution": "Part of the tub filled in the first 2 minutes \n= 2*1/10 = 1/5\nPart of the tub filled in the next 2 minutes \n= 2*1/15 = 2/15\nPart of the filled in 4 minutes \n= (1/5) + (2/15) = 1/3\nTime required to fill the tub \n= 3*4 = 12 minutes"
+      },
+      {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "7 minutes",
+        "14 minutes",
+        "3.5 minutes",
+        "28 minutes"
+      ],
+      "question": "A tank has three inlets A, B and C. C takes twice the time taken by A to fill the tank and B takes half the time taken by A to fill the tank. If they can fill the tank together in 4 minutes, find the time taken by B to fill the tank.",
+      "solution": "Let A take x minutes to fill the tank.\n\n(1/x) + (1/(x/2)) + (1/2x) = 1/4\n\n(7/2x) = ¼\n\nx = 14\nx/2 = 7"
+     },
+     {
+      "id": 10,
+      "answerIndex": 2,
+      "answers": [
+        "480 liters",
+        "360 liters",
+        "300 liters",
+        "240 liters"
+      ],
+      "question": "An inlet pipe fills a tank at the rate of 5 litres of water a minute. An outlet connected to the tank can empty a full tank in 5 hours. Both the pipes are opened together for 30 minutes and then, the outlet is closed. It took another 36 minutes to fill the tank. Find the capacity of the tank.",
+      "solution": "Let the inlet pipe take x minutes to fill the tank.\n\nPart of the tank filled by the inlet in a minute \n= (1/x)\nPart of the tank emptied by the outlet in a minute \n= 1/(5*60) = 1/300\nPart of the tank filled in the first 30 minutes \n= 30*[(1/x)-(1/300)] \n= (300-x)/10x\nPart of the tank filled in the next 36 minutes \n= 36*(1/x) \n\n1 - [(300-x)/10x] = 36/x\n\nSolving, x = 60\nCapacity of the tank = 60*5 = 300 liters"
+     }]
+},
+"Probability":{
+        "formula": "RANDOM EXPERIMENT:\nA random experiment is an experiment or a process in which all possible outcomes are known but the exact outcome cannot be predicted earlier.\n\nSAMPLE SPACE:\nThe set of all possible outcomes of a random experiment is called sample space.\n\nEXAMPLES:\n\n1. Tossing a coin\nS = {Head, Tail}\nIf n coins are tossed, n(S) = 2^n\n\n2. Throwing an unbiased die\nS = {1, 2, 3, 4, 5, 6}\nIf n dice are thrown, n(S) = 6^n\n\n3. Drawing a card from a pack of well-shuffled cards.\n(i) There are 52 cards in a pack. \n(ii) There are four suits, Hearts, Diamonds, Spades and Clubs each containing 13 cards. \n(iii) They consist of an Ace, a Jack, a Queen, a King and numbers from 2 to 10. \n(iv) Hearts and Diamonds are red. Spades and Clubs are black.\n\nProbability of occurrence of an event P(E) = n(E) / n(S)\n\n       (i) P(S) = 1\n       (ii) 0≤P(E)≤1",
+        "problems": [
+          {
+            "id": 1,
+            "answerIndex": 2,
+            "answers": [
+              "5/33",
+              "2/11",
+              "19/66",
+              "38/66"
+            ],
+            "question": "A bag contains 5 red balls, 3 blue balls and 4 green balls. Two balls are drawn out at random. Find the probability that they will be of the same colour.",
+            "solution": "No. of ways of drawing 2 balls from 12 balls \nn(S) = 12C2 = (12*11)/(2*1) = 66\nNo. of ways of drawing two balls of the same colour \nn(E) = 5C2+3C2+4C2 \n              = (5*4/2)+(3*2/2)+(4*3/2) = 19\nP(E) = n(E)/n(S) = 19/66"
+          },
+          {
+            "id": 2,
+            "answerIndex": 3,
+            "answers": [
+              "5/1326",
+              "2/663",
+              "8/1326",
+              "8/663"
+            ],
+            "question": "From an ordinary pack of cards, two cards are drawn out at random. Find the probability that they consist of a king and a queen.",
+            "solution": "n(S) = 52C2 = 52*51/2 = 1326\n\nn(E) = 4C1*4C1 = 16\n\nP(E) = 16/1326 = 8/663"
+          },
+          {
+            "id": 3,
+            "answerIndex": 2,
+            "answers": [
+              "5/18",
+              "1/6",
+              "5/36",
+              "7/36"
+            ],
+            "question": "A and B throw a dice. Find the probability that the sum of their throws is 6.",
+            "solution": "n(S) = 36\n\nE = {(1,5),(2,4),(3,3),(4,2),(5,1)}\n\nn(E) = 5\n\nP(E) = 5/36"
+          },
+          {
+            "id": 4,
+            "answerIndex": 2,
+            "answers": [
+              "1/4",
+              "5/8",
+              "3/8",
+              "3/4"
+            ],
+            "question": "Three coins are tossed. Find the probability of getting two heads and a tail.",
+            "solution": "S={HHH,HHT,HTH,HTT,THH,TTH,THT,TTT}\nn(S) = 8\nE = {HHT,HTH,THH}\nn(E) = 3\nP(E) = 3/8"
+          },
+          {
+            "id": 5,
+            "answerIndex": 2,
+            "answers": [
+              "1/4",
+              "1/32",
+              "1/16",
+              "1/5"
+            ],
+            "question": "Out of 5 children, the eldest is a girl. Find the probability that the rest are boys.",
+            "solution": "Probability of a boy = 1/2\n\nP(the remaining 4 are boys) \n= (1/2)*(1/2)*(1/2)*(1/2) = 1/16"
+          },
+          {
+            "id": 6,
+            "answerIndex": 0,
+            "answers": [
+              "1/4",
+              "2/9",
+              "1/6",
+              "1/5"
+            ],
+            "question": "Two dice are thrown simultaneously. Find the probability of getting a prime number on both the dice.",
+            "solution": "n(S) = 36\n\nE = {(2,2),(2,3),(2,5),(3,2),(3,3),(3,5),(5,2),(5,3),(5,5)}\n\nn(E) = 9\n\nP(E) = 9/36 = 1/4"
+          },
+          {
+            "id": 7,
+            "answerIndex": 3,
+            "answers": [
+              "2/13",
+              "1/13",
+              "4/13",
+              "3/13"
+            ],
+            "question": "A card is drawn at random from a pack of well-shuffled cards. What is the probability that the card is a face card?",
+            "solution": "There are 3 face cards in each suit. \n\nHence, a total of 12 face cards in a pack.\n\nP(E) = 12/52 = 3/13"
+          },
+          {
+            "id": 8,
+            "answerIndex": 1,
+            "answers": [
+              "1/8",
+              "7/8",
+              "5/8",
+              "3/4"
+            ],
+            "question": "What is the probability of getting at most two tails in tossing three fair coins?",
+            "solution": "Probability of getting three tails \n= 1/8\nProbability of getting atmost two tails \n= 1-(1/8) = 7/8"
+          },
+          {
+            "id": 9,
+            "answerIndex": 0,
+            "answers": [
+              "17/42",
+              "5/42",
+              "15/42",
+              "7/42"
+            ],
+            "question": "Three balls are drawn out at random from a bag containing 4 red balls and 5 yellow balls. What is the probability of getting at least two red balls?",
+            "solution": "n(S) = 9C3 = (9*8*7)/(3*2*1) = 84\n\nn(E) = No. of ways of drawing 2 red balls and 1 yellow ball+ \nNo. of ways of drawing 3 red balls\n        = (4C2*5C1) + (4C3) = 34\n\nP(E) = 34/84 = 17/42"
+          },
+          {
+            "id": 10,
+            "answerIndex": 1,
+            "answers": [
+              "1/2",
+              "1/3",
+              "1/4",
+              "1/6"
+            ],
+            "question": "Two fair dice are thrown. What is the probability of getting a sum that is a multiple of 3?",
+            "solution": "n(S) = 36\n\nE = {(1,2),(1,5),(2,1),(2,4),(3,3),(3,3),(4,2),(4,5),(5,1),(5,4),(6,3),(6,6)}\n\nn(E) = 12\n\nP(E) = 12/36 = 1/3"
+          }]
+ },
+ "Ages":{
+        "formula": "For most of the questions in this topic, two or more linear equations will be obtained. Solve those equations to get the answer.\n\nExample:\n\n10 years ago, a father was four times as old as his son. 10 years hence, he will be twice as old his son. Find the son's present age.\n\nSolution:\n\nLet the father's present age be F and the son's age be S.\n\n10 years ago:\n(F-10)=4(S-10)\nF-10 = 4S-40\nF=4S-30\n10 years hence:\n(F+10)=2(S+10)\nF+10=2S+20\nF-2S=10\nReplacing F with 4S-30,\n(4S-30)-2S=10\n2S=40\nS=20\nSon's present age=20 years",
+        "problems": [
+            {
+                "id": 1,
+                "answerIndex": 3,
+                "answers": [
+                    "2",
+                    "4",
+                    "6",
+                    "8"
+                ],
+                "question": "The ratio of the ages of A and B is 2:3. If B is 3 years elder than A, find the age of A after 2 years.",
+                "solution": "Let the ages of A and B be 2x and 3x respectively.\n\n3x=2x+3\nA=2x=6 \nB=3x=9\n\nAge of A after 2 years is 8."
+            },
+            {
+                "id": 2,
+                "answerIndex": 3,
+                "answers": [
+                    "14",
+                    "12",
+                    "8",
+                    "6"
+                ],
+                "question": "Two years ago, Harish was thrice as old as his brother Krish. Two years later, Harish will be twice as old as Krish. Find the present age of Krish.",
+                "solution": "H-2=3*(K-2)\nH+2=2*(K+2)\nSolving the equations, K=6"
+            },
+            {
+                "id": 3,
+                "answerIndex": 0,
+                "answers": [
+                    "4",
+                    "6",
+                    "8",
+                    "2"
+                ],
+                "question": "In a family of four, the average age is 20. The parents' age difference is 6 and the siblings' age difference is 4. If the ages of the eldest and youngest member differ by 33, find the age of the youngest member of the family.",
+                "solution": "Let the age of the parents be x and x+6.\nLet the age of the siblings be y and y+4.\n\nx+6-y=33\n(x+x+6+y+y+4)/4 = 20\n\nSolving the equations,  y=4"
+            },
+            {
+                "id": 4,
+                "answerIndex": 1,
+                "answers": [
+                    "25",
+                    "20",
+                    "15",
+                    "16"
+                ],
+                "question": "Ram is 5 years elder than Lakshman who is 4 years elder than Bharath. The sum of their ages is 61. Find the age of Lakshman.",
+                "solution": "R=L+5\nL=B+4\nR+L+B=61\nSolving the three equations, L=20"
+            },
+            {
+                "id": 5,
+                "answerIndex": 2,
+                "answers": [
+                    "27",
+                    "30",
+                    "33",
+                    "36"
+                ],
+                "question": "The sum of the ages of a mother and a son is equal to the age of the father. Three years later, the father will be six times as old as his son. The ratio of the present ages of the mother and son is 10:1. Find the age of the father.",
+                "solution": "M+S=F\nF+3=6(S+3)\nM/S = 10\nSolving these equations, F = 33"
+            },
+            {
+                "id": 6,
+                "answerIndex": 0,
+                "answers": [
+                    "6",
+                    "9",
+                    "11",
+                    "14"
+                ],
+                "question": "Ram and Raj are twins. The sum of their ages combined with their father's age is 47. Their father's age at the time of their birth was 29. Find the age of Ram.",
+                "solution": "R+R+F=47\nF-R=29\nSolving the two equations, R=6"
+            },
+            {
+                "id": 7,
+                "answerIndex": 1,
+                "answers": [
+                    "58",
+                    "46",
+                    "28",
+                    "24"
+                ],
+                "question": "Thirteen years back, my mother was thrice my age and two years back, she was twice my age. Find my mother's present age.",
+                "solution": "Let my age be x and my mother's age be y.\ny-13 = 3(x-13)\ny-2 = 2(x-2)\nSolving the two equations, y=46"
+            },
+            {
+                "id": 8,
+                "answerIndex": 0,
+                "answers": [
+                    "18",
+                    "16",
+                    "11",
+                    "9"
+                ],
+                "question": "A man has three daughters. The present ages of all three of them are square numbers. The sum of their ages after 5 years is 41. Find the age of his eldest daughter after 2 years.",
+                "solution": "x,y and z are square numbers.\n(x+5)+(y+5)+(z+5)=41\nx+y+z=26\nBy trial and error method, their ages are 1, 9 and 16.\n\nThe age of his eldest daughter after 2 years is 18."
+            },
+            {
+                "id": 9,
+                "answerIndex": 0,
+                "answers": [
+                    "360",
+                    "240",
+                    "120",
+                    "480"
+                ],
+                "question": "A wizard named Nepo says \"I am only three times my son's age. My father is 40 years more than twice my age. Together the three of us are a mere 1240 years old.\" How old is Nepo?",
+                "solution": "N=3S\nF=2N+40\nF+N+S=1240\nSolving these, N=360"
+            },
+            {
+                "id": 10,
+                "answerIndex": 2,
+                "answers": [
+                    "36",
+                    "42",
+                    "45",
+                    "48"
+                ],
+                "question": "A father is three times as old as his son. After fifteen years the father will be twice as old as his son's age at that time. Hence the father's present age is",
+                "solution": "F=3S\nF+15=2(S+15)\nSolving the two equations, F=45"
+            }]
+},
+"Profit_Loss":{
+            "formula": "C.P is the cost price and S.P is the selling price\n\nIf S.P>C.P,\nGain or Profit = S.P-C.P\nGain % = (Profit/C.P)*100\nS.P = C.P * [(100+gain%)/100]\nC.P = (100*S.P)/(100+gain%)\n\nIf C.P>S.P,\nLoss = C.P-S.P\nLoss % = (Loss/C.P)*100\nS.P = C.P * [(100-loss%)/100]\nC.P = (100*S.P)/(100-loss%)\n\nIf an article is sold at a gain of x%, \nS.P = (100+x)% of C.P\n\nIf an article is sold at a loss of y%,\nS.P = (100-x)% of C.P\n\n\n\nWhen a person sells two items of the same price, one at a gain of x% and the other at a loss of x%, he always incurs a loss.\n\nLet’s say the Selling Price of each item be 120 and those items sold at 20% profit and 20% loss.\n\nCost Price of 1st item will be (120/1.2)=100.\nCost Price of 2nd item will be (120/0.8)=150\n\nSo total CP will be (100+150)=250\nand total SP will be (120+120) 240\n\nSo SP is less than CP\nWe can find loss percentage: [(250–240)/250]*100 it will be 4%\nWhich is equal to square of (20/100)\nSo loss % = x²/100\n\n\n\nIf a shopkeeper sells his goods at C.P, but uses false weights of x kg, his gain is:\nGain % = [(True Weight-False Weight)/False Weight]*100\n= [Error/(True Value-Error)]*100",
+            "problems": [
+                {
+                    "id": 1,
+                    "answerIndex": 2,
+                    "answers": [
+                        "Rs.200",
+                        "Rs.220",
+                        "Rs.240",
+                        "Rs.250"
+                    ],
+                    "question": "A shopkeeper sells 1 kg of apples for Rs. 160 at a loss of 20%. At what price should he sell a kg of apples to gain 20%?",
+                    "solution": "Let the cost price be Rs. (160+x)\nLoss = Rs.x\n\nLoss% = (x/(160+x))*100 = 20%\n\nx=Rs.40\nC.P=Rs.200\n\nGain% = (Gain/C.P) * 100 = 20%\nGain = Rs.40\n\nS.P=Gain+C.P=Rs.240"
+                },
+                {
+                    "id": 2,
+                    "answerIndex": 2,
+                    "answers": [
+                        "10%",
+                        "5%",
+                        "20%",
+                        "12%"
+                    ],
+                    "question": "I bought 10 pencils for Rs.50 and sold them for Rs.60. What is my gain %?",
+                    "solution": "Gain % = (gain/C.P) * 100 = 20%"
+                },
+                {
+                    "id": 3,
+                    "answerIndex": 2,
+                    "answers": [
+                        "25%",
+                        "40%",
+                        "50%",
+                        "60%"
+                    ],
+                    "question": "A man sells an article at a profit of 20%. If he had bought it for 20% less but sells at the same price, find the gain %.",
+                    "solution": "Let the C.P be Rs.x\nS.P=1.2x\n\nIf he had bought it for 20% less, C.P = 0.8x\n\nGain = 0.4x\nGain% = (0.4x/0.8x) * 100 = 50%"
+                },
+                {
+                    "id": 4,
+                    "answerIndex": 1,
+                    "answers": [
+                        "5%",
+                        "5(5/19)%",
+                        "4(5/19)%",
+                        "5(10/19)%"
+                    ],
+                    "question": "A shopkeeper sells his goods at the cost price but uses a false weight of 950 gm. Find his gain %.",
+                    "solution": "Let the cost of 1 kg of goods be Rs.100. \nThe cost of 950g is Rs. 95.\n\nHe sells Rs.95 worth goods for Rs.100. \nGain = Rs.5\nC.P = Rs.95\n\nGain % = (5/95) * 100 = 5(5/19)%"
+                },
+                {
+                    "id": 5,
+                    "answerIndex": 2,
+                    "answers": [
+                        "20%",
+                        "15%",
+                        "12.5%",
+                        "10%"
+                    ],
+                    "question": "A shopkeeper sells a bag at a gain of 25%. He offers a discount of 10% on the bag. What is his profit %?",
+                    "solution": "Let the C.P of the bag be Rs.x\nS.P = 1.25x\n\nAfter discount, the selling price is \n0.9*1.25x = 1.125x\n\nGain % = ((1.125x-x)/x)*100 = 12.5%"
+                },
+                {
+                    "id": 6,
+                    "answerIndex": 0,
+                    "answers": [
+                        "Rs.16",
+                        "Rs.18",
+                        "Rs.10",
+                        "Rs.8"
+                    ],
+                    "question": "A man bought 10 apples and 8 oranges for Rs.200 and sold them for Rs.212. If he gained 12.5% on the apples and lost 20% on the oranges. Find the cost of an apple.",
+                    "solution": "Let the cost of an apple be Rs.x and the cost of an orange be Rs.y\n\nThe S.P of an apple is Rs.1.125x and the S.P of an orange is Rs.0.8y\n\n10x+8y=200\n10*(1.125x)+8*(0.8y)=212\n\nSolving these, x=16"
+                },
+                {
+                    "id": 7,
+                    "answerIndex": 3,
+                    "answers": [
+                        "25%",
+                        "20%",
+                        "15%",
+                        "10%"
+                    ],
+                    "question": "John buys a second-hand car for Rs.1,80,000 and spent Rs.20,000 for repairing it. He sold it for Rs.2,20000. Find his gain %.",
+                    "solution": "C.P = 180000+20000 = 200000\nS.P = 220000\n\nGain %=((220000-200000)/200000) * 100 = 10%"
+                },
+                {
+                    "id": 8,
+                    "answerIndex": 3,
+                    "answers": [
+                        "5%",
+                        "10%",
+                        "15%",
+                        "25%"
+                    ],
+                    "question": "12 articles were sold at the cost price of 15 articles. Find the profit %.",
+                    "solution": "Let the C.P of an article be Rs.x\n\nS.P = 15x/12 = 1.25x\n\nGain % = ((1.25x-x)/x)*100 = 25%"
+                },
+                {
+                    "id": 9,
+                    "answerIndex": 0,
+                    "answers": [
+                        "100%",
+                        "75%",
+                        "50%",
+                        "25%"
+                    ],
+                    "question": "The gain triples when the selling price of an item is doubled. Find the gain %.",
+                    "solution": "Let the C.P be Rs.x and the S.P be Rs.y. \n\nGain = y-x\n\n2y-x = 3*(y-x)\ny=2x\n\nGain = y-x = 2x-x = x\n\nGain % = (x/x)*100 = 100%"
+                },
+                {
+                    "id": 10,
+                    "answerIndex": 1,
+                    "answers": [
+                        "Rs.20",
+                        "Rs.21",
+                        "Rs.24",
+                        "Rs.25"
+                    ],
+                    "question": "A shopkeeper bought 60 apples at the rate of Rs.240 per dozen. For how much should he sell an apple in order to gain 5%?",
+                    "solution": "C.P of an apple \n= 240/12 = Rs.20\nGain % = ((S.P-20)/20) * 100 = 5%\n\nS.P=Rs.21"
+                }]
+        }        
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="c1">
+        <img src="https://image3.mouthshut.com/images/imagesp/925915639s.png" alt="" srcset="">
+        <span class="word">Hello user!</span>
+        <span id="guide1">Enter your name to continue the Quiz.</span>
+        <div class="nameValue">
+            <input type="text"  id="name" value="Enter Your Name">
+            <button id="enter" type="submit">ENTER</button>
+        </div>
+        <span  id="guide2">You ll have 10 seconds to answer each question</span>
+        <div class="select">
+                <span class="word">Select Category</span>
+            <div class="options">
+                <button id="p1">Pipes And Cisterns</button>
+                <button id="p2">Probability</button>
+                <button id="p3">Problem on Ages</button>
+                <button id="p4">Profit and Loss</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="c2">
+        <span id="choose">hello</span>
+        <div class="timeScore">
+            <span id="timer"></span>
+            <span id="score">Score:</span>
+        </div>
+        <div class="quizQuestion">
+            <span id="questionNo"></span>
+            <p id="quizQuestion"></p>
+        </div>
+        <div class="options" id="quizOptions">
+            <button id="qp1">Pipes And Cisterns</button>
+            <button id="qp2">Probability</button>
+            <button id="qp3">Problem on Ages</button>
+            <button id="qp4">Profit and Loss</button>
+        </div>
+        <button id="next">Next Question</button>
+    </div>
+    <div class="container" id="c3">
+        <span class="word">Quiz Result</span>
+        <p><span id="nameDis">ganesh</span> your result is:</p>
+        <p>Total Time Taken: <span id="time"></span></p>
+        <p>Total Question:<span id="choose">10</span></p>
+        <p>Attempt:<span id="choose">10</span></p>
+        <p>correct:<span id="r"></span></p>
+        <p>Wrong:<span id="w"></span></p>
+        <p>Percentage:<span id="p"></span></p>
+        <div class="options">
+            <button id="start">Start Again</button>
+            <button id="home">Go To Home</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

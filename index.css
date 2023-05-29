@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 60%;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1), 
+            0px 2px 4px rgba(0,0,0,0.1),
+            0px 4px 8px rgba(0,0,0,0.1),
+            0px 8px 16px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Sans-serif;
+
+}
+.container img{
+    height: 100px;
+    width:100px;
+    margin-top: 40px;
+}
+.container .word{
+    font-size: 30px;
+    font-weight: bold;
+    color:#00BFFF;
+    margin-top: 20px;
+}
+.container #guide1{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container .nameValue{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 39%;
+}
+.container .nameValue input{
+    border: none;
+    box-shadow:  0px 0px 0px 2px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+}
+.container .nameValue button{
+    border: none;
+    border-radius: 5px;
+    height: 70%;
+    width: 10%;
+    background-color: #00BFFF;
+    color: white;
+    font-size: 90%;
+    text-align: center;
+    cursor: pointer;
+}
+.container #guide2{
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.container .select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.container .options{
+    display: grid;
+    margin-top: 15px;
+    margin-right: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 25px;
+}
+.container .select .options button{
+    margin: 15px;
+    background-color: #D7FFFF;
+    text-align: center;
+    height: 70%;
+    width: 90%;
+    border-radius: 7px;
+    color: black;
+    border: 2px solid #00BFFF; 
+    cursor: pointer;
+
+}
+.container  .options button{
+    margin: 15px;
+    background-color: #D7FFFF;
+    text-align: center;
+    height: 70%;
+    width: 90%;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid #00BFFF; 
+    cursor: pointer;
+
+}
+.container #choose{
+    margin-top: 50px;
+    font-weight: 600;
+}
+.container .timeScore{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+}
+.container .timeScore #timer{
+    margin-left:0px;
+    margin-right: 85%;
+    border:2px solid #00BFFF;
+    border-radius: 50%;
+    color: #00BFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.container .timeScore #score{
+    margin-right:0px;
+}
+.container button{
+    margin: 20px;
+    background-color: #00BFFF;
+    text-align: center;
+    border: none;
+    height: 7%;
+    width: 30%;
+    border-radius: 20px;
+    color: white; 
+    cursor: pointer;
+}
+.container .quizQuestion{
+    width: 90%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 45px;
+    position: relative;
+    
+}
+.container .quizQuestion #questionNo{
+    position: absolute;
+    top:-21%;
+    left: 46%;
+    align-items: center;
+    border:2px solid #00BFFF;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    color: #00BFFF;
+    font-weight: bold;
+}
+#c2{
+    display: none;
+}
+#c3{
+    display: none;
+}
