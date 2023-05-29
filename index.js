@@ -131,7 +131,6 @@ async function fetchData(qn){
                 })
                 if(element.innerText==quizData.Ages.problems[qn].answers[quizData.Ages.problems[qn].answerIndex]){
                     element.style.backgroundColor="blue";
-                    console.log(element);
                     score=score+1;
                 }else{
                     element.style.backgroundColor="red";
@@ -275,8 +274,8 @@ homeEl.addEventListener('click',()=>{
     options=[];
     timer=301;
     inputName=" ";
-    timeTake=undefined;
-    percenatge=undefined;
-    wrong=undefined;
-    correct=undefined;
+    timeTake=0;
+    percenatge=0;
+    wrong=0;
+    correct=0;
 })
