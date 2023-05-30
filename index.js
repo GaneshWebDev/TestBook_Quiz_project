@@ -226,7 +226,7 @@ nextEl.addEventListener('click',()=>{
             wrongEl.innerText=wrong;
             perEl.innerText=percenatge;
             nameEl.innerText=inputName;
-            timeEl.innerText=timeTake;
+            timeEl.innerText=`${timeTake} Sec`;
            nextEl.innerText="Next Question";
         })
     }
